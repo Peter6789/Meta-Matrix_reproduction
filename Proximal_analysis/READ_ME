@@ -9,3 +9,11 @@ HP = High pass filter
 Cosine = Cosine distance
 Manhattan = Manhattan distance
 IPS = instantenous phase synchrony. 
+aCOMPCORR_RAM= Using pearson correlation as a distanc4e metric, sliding window and aCompCorr (see S2 or methods); Cambridge anaesthesia dataset
+aCOMPCORR_LON = alternative anaesthesia dataset (LONDON, ONTARIO), preprocessed as aCOMPCORR_RAM
+
+
+NB: *_OTHER_TIMEPOINTS
+This has an extra parameter which multiples results by 3. We varied the number of timepoints where between proximal transitions and averaged results over the various distances. 
+So, number timepoints = 6, indicates that we took the diagonal vectors (see fig 2 in main text) of the firsat subdiagonal, the second subdiagonal and so on till the 6th. 
+We calculated the relevant metrics over all these and then averaged the resulting values. Number_timepoints =1 is what we report in the main text (for the lower granularity parcellation) 
