@@ -6,8 +6,8 @@ There are the results for two network granularities (126 and 553 parcels) for th
 
 GS = global signal regression 
 HP = High pass filter
-Cosine = Cosine distance
-Manhattan = Manhattan distance
+COS = Cosine distance
+CB = City Block; AKA, Manhattan distance
 IPS = instantenous phase synchrony. 
 aCOMPCORR_RAM= Using pearson correlation as a distanc4e metric, sliding window and aCompCorr (see S2 or methods); Cambridge anaesthesia dataset
 aCOMPCORR_LON = alternative anaesthesia dataset (LONDON, ONTARIO), preprocessed as aCOMPCORR_RAM
