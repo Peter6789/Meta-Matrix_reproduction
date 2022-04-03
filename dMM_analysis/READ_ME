@@ -2,8 +2,7 @@ These are all reproduction results for dMM  analysis (See fig 2 in main text).
 
 Within each are omnibus brant's test p-value, Ordinal logistic regression p-value, regression coefficient , odds ratio and the confidence interavals (low and high). 
 
-There are the results for two network granularities (126 and 553 parcels) for three different models (refer to methods)
-
+There are the results for two network granularities (126 and 553 parcels) for two different defintions of the dMM (i.e., removing 13 or 24 proximal/autocorrelational timepoints). See main text for further description
 GS = global signal regression 
 HP = High pass filter
 COS = Cosine distance
