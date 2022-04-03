@@ -1,1 +1,17 @@
+These are all reproduction results for dMM  analysis (See fig 2 in main text). 
 
+Within each are omnibus brant's test p-value, Ordinal logistic regression p-value, regression coefficient , odds ratio and the confidence interavals (low and high). 
+
+There are the results for two network granularities (126 and 553 parcels) for three different models (refer to methods)
+
+GS = global signal regression 
+HP = High pass filter
+COS = Cosine distance
+CB = City Block; AKA, Manhattan distance
+IPS = instantenous phase synchrony. 
+RAM_VECTORISED= Using pearson correlation as a distance metric, sliding window and aCompCorr (see S2 or methods); Cambridge anaesthesia dataset
+LON_VECTORISED = alternative anaesthesia dataset (LONDON, ONTARIO), preprocessed as RAM_VECTORISED
+
+
+NB: *_VECTORISED
+This is alternative reproduction of results when measures were calculated on the whole vectorised dMM rather than on each column separately. 
