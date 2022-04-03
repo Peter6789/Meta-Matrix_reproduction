@@ -1,1 +1,16 @@
+These are all reproduction results across methodological contingencies for the effects of the cortex subcortex and cerebellum for proximal and distal measures. 
+
+Within each are omnibus brant's test p-value, Ordinal logistic regression p-value, regression coefficient , and odds ratios. 
+
+
+GS = global signal regression 
+HP = High pass filter
+COS = Cosine distance
+CB = City Block; AKA, Manhattan distance
+IPS = instantenous phase synchrony. 
+
+COR= cortex
+SUB= subcortex
+CEREB= Cerebllum
+
 
