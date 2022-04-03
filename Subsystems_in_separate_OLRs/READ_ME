@@ -14,3 +14,8 @@ SUB= subcortex
 CEREB= Cerebllum
 
 
+OR= odds ratio
+COEF= coefficient 
+P = P-value
+Bra= Brant's test p-value (omnibus presented)
+
