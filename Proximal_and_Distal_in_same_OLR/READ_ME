@@ -1,1 +1,14 @@
+These are all reproduction results for the investigation into the unique predictive power of proximal (sample entropy) and distal (effort-to-compress) variables when inserted into the same ordinal logistic regression. 
+
+Within each are omnibus brant's test p-value, Ordinal logistic regression p-value, regression coefficient and odds ratio . 
+
+There are the results for two network granularities (126 and 553 parcels) 
+
+GS = global signal regression 
+HP = High pass filter
+COS = Cosine distance
+CB = City Block; AKA, Manhattan distance
+IPS = instantenous phase synchrony. 
+
+
 
